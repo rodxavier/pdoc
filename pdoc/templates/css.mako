@@ -12,14 +12,13 @@
     line-height: 1.6em;
   }
   #content {
-    width: 70%;
-    max-width: 850px;
+    width: 80%;
     float: left;
     padding: 30px 60px;
     border-left: 1px solid #ddd;
   }
   #sidebar {
-    width: 25%;
+    width: 20%;
     float: left;
     padding: 30px;
     overflow: hidden;
