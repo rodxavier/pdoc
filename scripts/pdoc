@@ -366,7 +366,8 @@ def process_html_out(impath):
            '--html-dir', args.html_dir,
            '--http-html',
            '--overwrite',
-           '--link-prefix', args.link_prefix]
+           '--link-prefix', args.link_prefix,
+           '--docstring-style', args.docstring_style]
     if args.external_links:
         cmd.append('--external-links')
     if args.all_submodules:
