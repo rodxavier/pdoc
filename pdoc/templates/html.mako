@@ -65,7 +65,7 @@
 
 
   def _pproc_google(s):
-    s = re.sub(r"(Arguments|Returns|Raises)\:$",
+    s = re.sub(r"(Arguments|Returns|Raises|Examples)\:$",
                r"<h2 style='font-size:125% !important'>\1</h2>",
                s, flags=re.MULTILINE)
 
